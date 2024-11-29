@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Lufga', sans-serif;
+  src: url(../font/font-lufga-regular.otf);
+}
+body {
+  font-family: var(--fonte-principal);
+}
+.btn:active,
+.btn:focus {
+  border-color: none; 
+  outline: none; 
+  box-shadow: none
+}
+.main-container {
+  display: flex;
+}
+.list-inline-item a {
+  color: var(--cor-de-fonte);
+}
+.item-header {
+  color: var(--cor-de-fonte);
+  font-family: 'Lufga', sans-serif;
+  font-size: 16px;
+}
+.mobile-menu {
+  background-color: #efefef;
+  box-shadow: -1px -1px 10px #344054;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.mobile-menu {
+  display: none;
+}
